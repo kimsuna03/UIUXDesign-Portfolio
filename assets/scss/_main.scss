@@ -129,7 +129,8 @@ body {
       }
       .career-history {
         margin-left: auto;
-        width: 630px;
+        margin-top: 40px;
+        width: 660px;
         .history-list {
           margin: 0;
           padding: 20px 0;
@@ -137,25 +138,21 @@ body {
           border-bottom: 1px solid #fff;
           li {
             margin: 0;
-            padding: 0;
-            // display: flex;
-            // justify-content: space-around;
+            display: flex;
+            justify-content: space-around;
             align-items: center;
             span {
-              margin: 0;
-              padding: 0;
-              display: inline-block;
               font-size: 18px;
               font-weight: 300;
+              line-height: 150%;
             }
+          }
+          li:not(:first-child) {
+            padding: 0;
+            margin-top: 36px;
           }
           :nth-child(2) {
             font-weight: 600;
-          }
-          :not(:last-child) {
-            padding: 0;
-            //margin-top: 32px;
-            border: 1px solid blue;
           }
         }
       }
