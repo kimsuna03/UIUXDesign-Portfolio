@@ -89,6 +89,7 @@ body {
     }
     .career-container {
       margin: 0 auto;
+      margin-top: 120px;
       display: flex;
       width: 1400px;
       .career-main {
@@ -104,15 +105,57 @@ body {
         }
         .category-contents {
           .category-list {
+            display: block;
             li {
+              margin: 0;
+              display: inline-block;
+              font-size: 16px;
+              font-weight: 300;
+              padding: 10px 20px;
+              border: 1px solid #fff;
+              border-radius: 30px;
             }
+            :not(:last-child) {
+              margin-right: 10px;
+            }
+          }
+          :nth-child(1) {
+            margin-top: 32px;
+          }
+          :nth-child(2) {
+            margin-top: 12px;
           }
         }
       }
       .career-history {
         margin-left: auto;
+        width: 630px;
         .history-list {
+          margin: 0;
+          padding: 20px 0;
+          border-top: 1px solid #fff;
+          border-bottom: 1px solid #fff;
           li {
+            margin: 0;
+            padding: 0;
+            // display: flex;
+            // justify-content: space-around;
+            align-items: center;
+            span {
+              margin: 0;
+              padding: 0;
+              display: inline-block;
+              font-size: 18px;
+              font-weight: 300;
+            }
+          }
+          :nth-child(2) {
+            font-weight: 600;
+          }
+          :not(:last-child) {
+            padding: 0;
+            //margin-top: 32px;
+            border: 1px solid blue;
           }
         }
       }
