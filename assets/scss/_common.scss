@@ -92,54 +92,49 @@ header {
 }
 
 footer {
-  margin: 0 auto;
+  position: relative;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1920px;
   min-width: 1400px;
+  border-top: 1px solid #ccc;
   .foot-wrap {
-    position: relative;
-    padding: 60px 0;
-    background: #3c424d;
+    margin: 0 auto;
+    width: 1400px;
+    padding: 100px 0;
     .contact {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      .title {
-        display: block;
-        font-size: 24px;
-        font-weight: 300;
-        color: #fff;
-      }
       ul {
-        margin-top: 20px;
         li {
-          display: inline-block;
-          margin-right: 20px;
-          font-size: 14px;
-          font-weight: 300;
-          color: #ccc;
-          span {
+          display: block;
+          margin-top: 60px;
+          .title {
+            display: block;
+            font-size: 18px;
+            font-weight: 300;
+            color: #757575;
+          }
+          .name {
+            display: block;
+            padding-top: 20px;
+            font-size: 24px;
             font-weight: 500;
-            margin-right: 10px;
-            color: #fff;
+            color: #454545;
+          }
+          :not(:first-child) {
+            margin-top: 0px;
           }
         }
       }
     }
     .top-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       position: absolute;
-      bottom: 100px;
-      right: 4%;
+      top: 10%;
+      right: 14%;
       z-index: 9999;
       width: 60px;
       height: 60px;
       background: #555d6c;
       border-radius: 50%;
-      box-shadow: 2px 2px 6px #31363e;
+      box-shadow: 2px 2px 2px #31363e;
       span {
         display: block;
         color: #fff;
