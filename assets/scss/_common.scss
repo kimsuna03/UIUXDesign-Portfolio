@@ -1,4 +1,11 @@
 header {
+  &.light-bg {
+    .header-wrap {
+      .logo {
+        background-color: #000;
+      }
+    }
+  }
   .header-wrap {
     position: relative;
     margin: 0 auto;
@@ -11,8 +18,9 @@ header {
       z-index: 99999;
       width: 174px;
       height: 20px;
-      background-image: url(../images/logo.svg);
-      background-repeat: no-repeat;
+      background-color: #fff;
+      -webkit-mask: url("../images/logo.svg") no-repeat center;
+      mask: url("../images/logo.svg") no-repeat center;
       a {
         display: block;
         width: 174px;
@@ -20,7 +28,6 @@ header {
         cursor: pointer;
       }
     }
-
     .menu {
       position: fixed;
       top: 0;
