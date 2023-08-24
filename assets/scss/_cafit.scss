@@ -1,0 +1,39 @@
+#page-cafit {
+  .visual-wrap {
+    background: linear-gradient(180deg, #fff 0%, #b1b2b9 100%);
+    > img {
+      width: 993px;
+    }
+    .design-data {
+      .data-list {
+        .data-item {
+          color: #fff;
+          .name {
+            span {
+              &.round {
+                background: #454545;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .design-img-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    .main-mockup {
+      img {
+        width: 910px;
+      }
+    }
+    img {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+#page-hyosung {
+  .visual-wrap {
+    background: linear-gradient(180deg, #fcfdff 0%, #c8d7e2 100%);
+
+    .design-data {
+      .data-list {
+        .data-item {
+          color: #333;
+          .name {
+            span {
+              &.round {
+                background: #2c2b92;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .design-img-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    img {
+      display: block;
+      margin: 0;
+    }
+  }
+}

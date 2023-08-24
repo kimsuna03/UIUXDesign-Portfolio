@@ -1,51 +1,26 @@
 #page-ttmik {
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  max-width: 1920px;
-  min-width: 1400px;
   .visual-wrap {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    min-height: 850px;
     background: linear-gradient(180deg, #c4c3f0 0%, #8087c8 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    img {
-      margin: 0;
-    }
     .design-data {
       .data-list {
-        display: flex;
         .data-item {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          .title {
-            font-size: 16px;
-          }
+          color: #fff;
           .name {
-            padding-top: 20px;
             span {
-              display: inline-block;
-              padding: 20px 10px;
-              font-size: 16px;
-              background: #656480;
-              border-radius: 30px;
-              color: #fff;
+              &.round {
+                background: #656480;
+              }
             }
           }
         }
       }
     }
   }
-  .intro-text-wrap {
-    padding: 140px 0;
-    .small-tag {
+
+  .design-img-wrap {
+    img {
+      display: block;
+      margin: 0;
     }
   }
 }
